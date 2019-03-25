@@ -1,60 +1,48 @@
-body {
-	background-color: white;
-	font: 12px Arial, Helvetica, sans-serif;
-	line-height: 1.254;
+#content {
+  margin-left: 2em;
+  margin-bottom: 4em;
+  float: left;
 }
-#wrapper {
-	width: 940px;
-	margin: 0px auto;
-	padding: 0px 60px;
-	padding-bottom: 10px;
+#content p {
+  margin: 10px ;
 }
-/*.navbar .container-fluid .navbar-header .navbar-brand {
-	margin-left: 32px;
+#content table {
+
+  margin:2em;
+  padding: 5px auto;
 }
-.navbar-nav>li>a {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    line-height: 14px;
+.page-title {
+  color: #c0392b;
+  font-weight:bold;
+  text-align: center;
+  padding: 10px;
 }
-.nav>li>a {
-	position: relative;
-    display: block;
-    padding: 25px 47px;
-}*/
+
+
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+.row.content {height: 1500px}
+
+/* Set gray background color and 100% height */
 .sidenav {
+  background-color: #f1f1f1;
   height: 100%;
-  width: 200px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #dfe4ea;
-  overflow-x: hidden;
-  padding-top: 20px;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height: auto;} 
+}
+.container-fluid {
   margin-top: 51px;
-}
-.sidenav a {
-  padding: 6px 6px 6px 32px;
-  font-family: "Segoe UI",Arial,sans-serif;
-  text-decoration: none;
-  display: block;
-  font-size: 15px;
-  color: inherit;
-}
-.sidenav a:hover {
-	background-color: red;
-}
-.sidenav h3 {
-	margin-left: 7px;
-}
-.flex-box {
-	display: flex;
-}
-.content-grammar {
-	height: 100%;
-	width: auto;
-	margin-left: -66px;
-	margin-top: 51px;
-	background-color: white;
 }
