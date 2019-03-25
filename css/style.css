@@ -82,3 +82,28 @@ footer p {
 .navbar-inverse .navbar-nav>li>a {
     
 }
+/*Định dạng logo*/
+#img-logo{
+	padding: 10px 15px;
+}
+.navbar{
+	background-color: #32cdff;
+}
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+.navbar-inverse .navbar-brand:hover {
+    color: #dfe4ea;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #dfe4ea;
+}
+.navbar-inverse {
+    border-color: #32cdff;
+}
+/*.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #32cdff;
+}*/
