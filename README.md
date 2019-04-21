@@ -38,9 +38,12 @@
 					<li>HTML</li>
 					<li>CSS</li>
 					<li>JavaScript</li>
-					<li>Và một ngôn ngữ back-end bất kì...</li>
 			</ul>
 			<h3>Một số hình ảnh sơ bộ của ứng dụng:</h3>
+	    		<img src = "https://user-images.githubusercontent.com/43242684/56467571-e131b700-644a-11e9-96c5-020e4c4cc35d.png">
+	    		<img src = "https://user-images.githubusercontent.com/43242684/56467584-11795580-644b-11e9-84ad-9974d194d781.png">
+	    		<img src = "https://user-images.githubusercontent.com/43242684/56467591-25bd5280-644b-11e9-9c41-77e56cf3d0c8.png">
+			
 	    		<h2>Nhóm thực hiện theo quy trình Scrum.</h2>
 	  		  <h3>Các vị trí và công việc tương ứng trong quy trình Scrum: </h3>
 	    <ul>
