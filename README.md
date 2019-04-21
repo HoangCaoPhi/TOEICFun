@@ -39,12 +39,7 @@
 					<li>CSS</li>
 					<li>JavaScript</li>
 			</ul>
-			<h3>Một số hình ảnh sơ bộ của ứng dụng:</h3>
-	    		<img src = "https://user-images.githubusercontent.com/43242684/56467571-e131b700-644a-11e9-96c5-020e4c4cc35d.png">
-	    		<img src = "https://user-images.githubusercontent.com/43242684/56467584-11795580-644b-11e9-84ad-9974d194d781.png">
-	    		<img src = "https://user-images.githubusercontent.com/43242684/56467591-25bd5280-644b-11e9-9c41-77e56cf3d0c8.png">
-			
-	    		<h2>Nhóm thực hiện theo quy trình Scrum.</h2>
+	       <h2>Nhóm thực hiện theo quy trình Scrum.</h2>
 	  		  <h3>Các vị trí và công việc tương ứng trong quy trình Scrum: </h3>
 	    <ul>
 	    	<li><i>Vũ Đức Minh </i><strong>(Product Owner)</strong>: Là người chịu trách nghiệm về sự thành công của ứng dụng, có nhiệm vụ tìm hiểu nhu cầu của khách hàng, từ đó hoạch định ra các hạng mục cần phát triển của dự án(lập Product Backlog). Là người có tiếng nói cuối cùng mọi quyết định liên quan đến ứng dụng. </li></br>
@@ -54,5 +49,11 @@
 	    		Trực tiếp sản xuất ứng dụng,không có ai chịu trách nghiệm quản lý nhóm, vậy nên kết quả công việc thuộc về toàn bộ nhóm. Nhóm sẽ lập kế hoạch thực hiện các hạng mục Product Backlog trong từng Sprint. Nhóm phải thường xuyên trao đổi thường xuyên với Product Owner để đảm bảo công việc luôn đi đúng hướng.
 	    	</li></br>
 	    </ul>
-	</body>
+			<h3>Một số hình ảnh sơ bộ của ứng dụng:</h3>
+	    		<img src = "https://user-images.githubusercontent.com/43242684/56467571-e131b700-644a-11e9-96c5-020e4c4cc35d.png"></img>
+	    		<img src = "https://user-images.githubusercontent.com/43242684/56467584-11795580-644b-11e9-84ad-9974d194d781.png"></img>
+	    		<img src = "https://user-images.githubusercontent.com/43242684/56467617-6321e000-644b-11e9-8658-197ab3f4b844.PNG"></img>
+			
+	    	       
+
 </html>
