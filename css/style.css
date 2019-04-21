@@ -1,5 +1,5 @@
 body {
-	background-color: #dfe4ea;
+	background-color: #f7f7f7;
 	font: 12px Arial, Helvetica, sans-serif;
 	line-height: 1.254;
 }
@@ -25,12 +25,19 @@ body {
 .jumbotron {
 	background-color: #fcfdfe;
 }
-.image:hover{
-	opacity: 0.6;
-  	filter: alpha(opacity=60); 
+.image{
+	border: 1px solid #ffffff;	
+	border-radius: 12px;
 }
-.image {
-	border: 3px solid #d2d2d2;
+.image:hover{
+	transform: scale(1.05);
+}
+.col-sm-3{
+	/*border: 3px solid #d2d2d2;*/
+}
+.col-sm-3:hover{
+	/*transform: scale(1.25);*/
+	
 }
 footer {
 	margin-top: 3em;
@@ -107,3 +114,4 @@ footer p {
 /*.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
     border-color: #32cdff;
 }*/
+
