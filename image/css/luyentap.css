@@ -1,0 +1,43 @@
+.navbar-inverse .navbar-nav>li>a {
+    
+}
+/*Định dạng logo*/
+#img-logo{
+	padding: 10px 15px;
+}
+.navbar{
+	background-color: #32cdff;
+}
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+.navbar-inverse .navbar-brand:hover {
+    color: #dfe4ea;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #dfe4ea;
+}
+.navbar-inverse {
+    border-color: #32cdff;
+}
+/*.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #32cdff;
+}*/
+#box1 {
+	margin-top: 100px;
+}
+#box2 {
+	margin-top: 100px;
+}
+footer {
+	margin-top: 3em;
+	border-top:  2px solid #D2691E;
+	font-size: 1.5em;
+	font-style: bold;
+}
+footer p {
+	margin-top: 2em;
+}

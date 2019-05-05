@@ -1,0 +1,121 @@
+body{
+	background: #dfe4ea;
+	padding-top: 5em;
+}
+#hello{
+	color: blue;
+	font-size: 50px;
+}
+/*---tiêu đề----*/
+.tu{
+	font-family: 'Itim', cursive;
+	text-align: center;
+	font-size: 3em;
+	color: red;
+	margin: 1em;
+}
+/*----drop down list------*/
+.drop-down-list {
+	margin: 10px auto;
+}
+select {
+	width: 50%;
+	height: 2em;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+.button-previous {
+	width: 7em;
+}
+.button-next {
+	width: 7em;
+	text-align: center;
+}
+#list-bottom {
+	margin: 1em auto;
+	margin-top: 4em;
+
+}
+
+/*---Phần từ và phiên âm----*/
+.word {
+	font-size: 1.3em;
+	font-weight: bold;
+	color: blue;
+}
+.spelling {
+	margin-left: 0.5em;
+	color: #d63031;
+	font-style: italic;
+	font-weight: bold;
+}
+.bold {
+	font-weight:bold;
+}
+/*-----các thẻ từ----*/
+#tags-word {
+	width: 70%;
+	height: auto;
+	margin-top:2em;
+	margin-bottom: 1.7em;
+}
+.hinhanh{
+	float: left;
+}
+.noidung {
+	width:55%;
+	height: auto;
+	float: left;
+	font-weight: normal;
+}
+.flex-container {	
+	background-color: white;
+	display: block;
+	overflow: hidden;
+}
+.flex-container>div{
+	margin: 20px;
+}
+
+/*---footer----*/
+footer {
+	margin-top: 3em;
+	border-top:  2px solid #D2691E;
+	font-size: 1.5em;
+	font-style: bold;
+}
+footer p {
+	margin-top: 2em;
+}
+.navbar-inverse .navbar-nav>li>a {
+    
+}
+/*Định dạng logo*/
+#img-logo{
+	padding: 10px 15px;
+}
+.navbar{
+	background-color: #32cdff;
+}
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+.navbar-inverse .navbar-brand:hover {
+    color: #dfe4ea;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #dfe4ea;
+}
+.navbar-inverse {
+    border-color: #32cdff;
+}
+/*.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #32cdff;
+}*/
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+     background-color: blue;
+}

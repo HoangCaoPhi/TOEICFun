@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>TOEIC FUN</title>
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+	
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="EnglishFun_config.js"></script>
+	<script src="EnglishFun_functions.js"></script>
+	<link src="../btv.html">
+<!--------------------------------------->
+<link rel="stylesheet" href="../../css/luyentap.css">
+<link rel=icon href=../../image/favicon.png sizes="16x16" type="image/png">
+  </head>
+
+  <body style="background-color : #C6E2FF;">
+	<div class="container">
+            <!--bắt đầu menu-->
+            <nav class="navbar navbar-inverse navbar-fixed-top" style="font-size: 17px;">
+                <div class="container">
+                    <div class="container-fluid">
+                        <div class="navbar-header text-center">
+                            <button type="button" class="navbar-toggle text-center" data-toggle="collapse" data-target="#myNavbar">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand navbar-left" id="img-logo" href="#" style="font-size: 25px;"><img src="../../image/logo.png"></a>
+                            <a class="navbar-brand hidden-xs hidden-md hidden-sm" href="#" style="font-size: 25px;">TOEIC FUN</a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="myNavbar">
+                            <ul class="nav navbar-nav">
+                                <li><a href="../../index.html">TRANG CHỦ</a></li>
+                                <li><a href="../../content/topic/Accounting.html">HỌC TỪ VỰNG</a></li>
+                                <li><a>LUYỆN TẬP</a></li>
+                                <li><a href="../../content/nguphap/12thi.html">NGỮ PHÁP TOEIC</a></li>
+                            </ul>
+                            <ul class="nav navbar-nav navbar-right">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!--kết thúc menu-->
+<div class="container-fluid" ng-app="myapp">
+	<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 " id="box1" style=" background-color: white;">
+			<h3 class="text-center" id="cauthu" ></h3>
+
+			<div class="row"> 
+				<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+				<div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">
+					<h4 id="h-typeOfQuestions"></h4>
+					<img id="anh" src="" alt="" style="display:none">
+				</div>
+			</div>
+
+			<h3 id="h-questions" class="text-center"></h3>
+
+			<div class="row">
+				<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+				<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+					<p id="demo" ></p>
+                    <input type="text" id="blank" style=" display : none; " >
+                    <button onclick="submitAnswer2()" style="display : none" id="submit">Submit</button>
+                    <br>
+					<input type="radio" id="a" name="gender" value="drink" onclick="submitAnswer()"  ">
+					<label for="" id="0"></label>
+					<br> 
+					<br>
+					<input type="radio" id="b" name="gender" value="drinks"  onclick="submitAnswer()">
+					<label for="" id="1"></label>
+					<br> 
+					<br>
+					<input type="radio" id="c" name="gender" value="eat"     onclick="submitAnswer()"> 
+					<label for="" id="2"></label>   
+					<br> 
+					<br>
+					<input type="radio" id="d" name="gender" value="eats"    onclick="submitAnswer()">
+					<label for="" id="3"></label>
+					<br> 
+					<br>
+					<br>
+					<button type="button" class="btn btn-success" onclick="render()"> Next </button>
+					<br>
+					<br>
+				</div>
+				
+			</div>
+		</div>
+		<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" id="box2">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					Điểm của bạn
+				</div>
+				<div id="diem" class="panel-body">
+					0
+				</div>
+			</div>
+			<h3 id="end" style="color: green;"></h3>
+		</div>
+		<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+			
+		</div>
+	</div>
+	<div class="row">
+		<footer class="text-center">
+			<p>Copyright © 2019 · www.toeicfun.com</p>
+		</footer>
+	</div>
+	</div>
+			<script>
+				render();
+			</script>
+	</div>
+  </body>
+</html>

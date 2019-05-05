@@ -1,0 +1,117 @@
+body {
+	background-color: #f7f7f7;
+	font: 12px Arial, Helvetica, sans-serif;
+	line-height: 1.254;
+}
+#wrapper {
+	width: auto;
+	margin: 0px auto;
+	padding: 0px 60px;
+	padding-bottom: 10px;
+	background-color: #dfe4ea;
+}
+#content{
+	width: auto;
+	background-color: #ffffff;
+	border-radius: 15px;
+}
+#container{
+	width: 100%;
+	background-color: red;
+}
+.row-topic {
+	margin-top: 2.8em;
+}
+.jumbotron {
+	background-color: #fcfdfe;
+}
+.image{
+	border: 1px solid #ffffff;	
+	border-radius: 12px;
+}
+.image:hover{
+	transform: scale(1.05);
+}
+.col-sm-3{
+	/*border: 3px solid #d2d2d2;*/
+}
+.col-sm-3:hover{
+	/*transform: scale(1.25);*/
+	
+}
+footer {
+	margin-top: 3em;
+	border-top:  2px solid #D2691E;
+	font-size: 1.5em;
+	font-style: bold;
+}
+footer p {
+	margin-top: 2em;
+}
+/*---sologan----*/
+#sologan {
+	font-style: bold;
+	margin-top: 2em;
+	font-size: 1em;
+	color: #c23616;
+	font-family: 'Noto Serif', serif;
+}
+/*-----title-topic-----tên các chủ đề*/
+.title-topic{
+	font-family: 'Itim', cursive;
+	font-size: 2em;
+}
+#slideshow {
+	margin-top: 83px;
+}
+.carousel {
+	border-radius: 15px 15px 0px 0px;
+	overflow: hidden;
+}
+.line-w-45px {
+		width: 100%;
+		height: 1px;
+		background-color: #d2d2d2;
+	}
+/*.navbar .container-fluid .navbar-header .navbar-brand {
+	margin-left: 32px;
+}
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 14px;
+}
+.nav>li>a {
+	position: relative;
+    display: block;
+    padding: 25px 47px;
+}*/
+.navbar-inverse .navbar-nav>li>a {
+    
+}
+/*Định dạng logo*/
+#img-logo{
+	padding: 10px 15px;
+}
+.navbar{
+	background-color: #32cdff;
+}
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+.navbar-inverse .navbar-brand:hover {
+    color: #dfe4ea;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #dfe4ea;
+}
+.navbar-inverse {
+    border-color: #32cdff;
+}
+/*.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #32cdff;
+}*/
+
