@@ -21,7 +21,7 @@
 			<h2>
 			<h2> Tài liệu hướng dẫn sử dụng <a href= https://docs.google.com/document/d/1wggxR_ItWVyXfkKeEhUgI4tF0bgyUw8MXD8hD5E_n7U/edit>Liên kết đến tài liệu</a>
 			<h2>
-			<h2> Video demo sản phẩm <a href= >Liên kết đến video demo</a>
+			<h2> Video demo sản phẩm <a href= https://www.youtube.com/watch?v=UBz-k77Ws8o>Liên kết đến video demo</a>
 			<h2>
 			Nhóm người sử dụng
 			</h2>
