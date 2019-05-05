@@ -15,7 +15,7 @@
 			<li>Hoàng Duy Tùng</li>
 		</ul>
 			<h2>
-			Tên sản phẩm: <i>TOEIC FUN</i> [Liên kết đến sản phẩm](https://hoangcaophi.github.io/index.html)
+			Tên sản phẩm: <i>TOEIC FUN</i> <a href= https://hoangcaophi.github.io>Liên kết đến sản phẩm</a>
 			</h2>
 	    		<h2> Tài liệu kỹ thuật phần mền của web <a href= https://docs.google.com/document/d/1Re0IorSIbfKEN5FdteW3fLDcN2W1iqk--UCaDrw8jGo/edit#heading=h.efa49agy8fyw>liên kết</a>
 			<h2>
